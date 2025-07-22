@@ -1,0 +1,19 @@
+{
+  "name": "testbelta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "sass --watch src/scss:src/css",
+    "serve": "live-server src",
+    "dev": "npm-run-all --parallel serve sass:watch",
+    "sass:build": "sass src/scss -o src/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.89.2"
+  }
+}
