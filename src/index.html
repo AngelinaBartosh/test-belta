@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Belta</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+   <header>
+       <div class="header-container">
+            <div class="logo-icon">
+                <!--<img src="icons/ic_logo.png" alt="logo">-->
+                <div class="logo-icon-img"></div>
+            </div>
+           <div class="nav">
+               <button class="nav-burger " id="burgerButton">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+               </button>
+               <div class="nav-burger-dropdown-parent ">
+                   <div class="nav-burger-dropdown-parent-menu">
+                       <h3 data-translate="burger_title">Мы крупнейшее дорожное предприятие</h3>
+                       <ul class="nav-burger-dropdown-parent-menu-list">
+                           <li><a href="#" data-translate="paragraph_1">Пункт 1</a></li>
+                           <li><a href="#" data-translate="paragraph_2">Пункт 2</a></li>
+                           <li><a href="#" data-translate="paragraph_3">Пункт 3</a></li>
+                       </ul>
+                       <button class="nav-burger-dropdown-parent-menu-close" id="burgerCloseButton">
+                           <img src="icons/ic_close.svg" alt="close">
+                       </button>
+                   </div>
+               </div>
+               <div class="nav-menu">
+                   <ul>
+                       <li><a href="#" data-translate="about_company">О предприятии</a></li>
+                       <li class="dropdown-parent">
+                           <a href="#" data-translate="branches">Филиалы</a>
+                           <div class="dropdown-menu">
+                               <a href="#" data-translate="paragraph_1">Пункт 1</a>
+                               <a href="#" data-translate="paragraph_2">Пункт 2</a>
+                               <a href="#" data-translate="paragraph_3">Пункт 3</a>
+                               <a href="#" data-translate="paragraph_4">Пункт 4</a>
+                           </div>
+                       </li>
+                       <li class="dropdown-parent">
+                           <a href="#" data-translate="services">Услуги</a>
+                           <div class="dropdown-menu">
+                               <a href="#" data-translate="paragraph_1">Пункт 1</a>
+                               <a href="#" data-translate="paragraph_2">Пункт 2</a>
+                               <a href="#" data-translate="paragraph_3">Пункт 3</a>
+                               <a href="#" data-translate="paragraph_4">Пункт 4</a>
+                           </div>
+                       </li>
+                       <li><a href="#" data-translate="citizensAppeals">Обращения граждан</a></li>
+                       <li><a href="#" data-translate="ownerComplaints">Владельцу тктс</a></li>
+                       <li><a href="#" data-translate="tollRoads">Паромные переправы</a></li>
+                       <li><a href="#" data-translate="normativeActs">Нормативные акты</a></li>
+                       <li><a href="#" data-translate="contacts">Контакты</a></li>
+                   </ul>
+               </div>
+               <div class="nav-content">
+                    <div class="nav-search">
+                        <label>
+                            <input class="search-input-block" type="text" placeholder="Поиск"/>
+                        </label>
+                        <button class="search-button-block">
+                            <img src="icons/ic_search.png" alt="search">
+                        </button>
+                    </div>
+                   <div class="eye-icon">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="37" height="38" viewBox="0 0 37 38" fill="none">
+                           <path d="M18.4755 8.33301C12.8431 8.33301 7.06548 11.5929 2.51708 18.1127C2.38725 18.3009 2.31611 18.5233 2.31263 18.7518C2.30916 18.9804 2.37352 19.2049 2.49757 19.3969C5.99233 24.8674 11.6926 29.1455 18.4755 29.1455C25.1846 29.1455 31.002 24.8544 34.5033 19.3716C34.6244 19.1833 34.6889 18.9642 34.6889 18.7403C34.6889 18.5165 34.6244 18.2973 34.5033 18.1091C30.9941 12.6892 25.1341 8.33301 18.4755 8.33301Z" stroke="#393939" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                           <path d="M18.5 24.5205C21.6929 24.5205 24.2812 21.9322 24.2812 18.7393C24.2812 15.5464 21.6929 12.958 18.5 12.958C15.3071 12.958 12.7188 15.5464 12.7188 18.7393C12.7188 21.9322 15.3071 24.5205 18.5 24.5205Z" stroke="#393939" stroke-width="2.5" stroke-miterlimit="10"/>
+                       </svg>
+                   </div>
+                   <div class="lang-switcher">
+                       <a href="#" class="lang-option" data-lang="be">бел</a>
+                       <a href="#" class="lang-option active" data-lang="ru">рус</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="navn">
+           <div class="logo-icon-adaptive">
+               <!--<img src="icons/ic_logo.png" alt="logo">-->
+               <div class="logo-icon-adaptive-img"></div>
+           </div>
+           <h1 data-translate="name">Название организации</h1>
+       </div>
+   </header>
+    <main class="main-container">
+        <div class="promo-block">
+            <div class="promo-block-slides">
+                <div class="promo-block-slides-wrap">
+                    <input type="radio" name="radio-btn" id="radio1" checked />
+                    <input type="radio" name="radio-btn" id="radio2" />
+                    <input type="radio" name="radio-btn" id="radio3" />
+                    <div class="promo-slide first">
+                        <img src="images/main_img.png" />
+                        <img class="img-adaptive" src="images/main_img2.png" />
+                        <img class="img-adaptive-mob" src="images/main_img3.png" />
+                        <div class="promo-slide-content">
+                            <p class="promo-slide-content-text" data-translate="slide_1_title">Мы крупнейшее дорожное предприятие, работающее на автомобильных дорогах, улицах  городов и малых населённых пунктов</p>
+                            <p class="promo-slide-content-slogan" data-translate="slide_1_slogan">Наши дороги - Ваше спокойствие! </p>
+                        </div>
+                    </div>
+                    <div class="promo-slide _2">
+                        <img src="images/main_img.png" />
+                        <img class="img-adaptive" src="images/main_img2.png" />
+                        <img class="img-adaptive-mob" src="images/main_img3.png" />
+                    </div>
+                    <div class="promo-slide _3">
+                        <img src="images/main_img.png" />
+                        <img class="img-adaptive" src="images/main_img2.png" />
+                        <img class="img-adaptive-mob" src="images/main_img3.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="promo-block-navigation">
+                <label for="radio1" class="promo-block-navigation-btn">
+                    <span></span>
+                </label>
+                <label for="radio2" class="promo-block-navigation-btn">
+                    <span></span>
+                </label>
+                <label for="radio3" class="promo-block-navigation-btn">
+                    <span></span>
+                </label>
+            </div>
+        </div>
+        <div class="info-block adaptive">
+            <div class="info-block-slides-wrap">
+                <input type="radio" name="info-radio-btn" id="radio11" checked />
+                <input type="radio" name="info-radio-btn" id="radio12" />
+                <input type="radio" name="info-radio-btn" id="radio13" />
+                <div  class="info-block-card _card1">
+                    <div class="info-block-card-img">
+                        <img src="icons/ic_path.png" alt="path">
+                    </div>
+                    <div class="info-block-card-content">
+                        <h3 data-translate="banner_1_title">Согласование проезда</h3>
+                        <p data-translate="banner_1_text">Дорожное управление</p>
+                    </div>
+                </div>
+                <div  class="info-block-card _card2">
+                    <div class="info-block-card-img">
+                        <img src="icons/ic_phone.png" alt="phone">
+                    </div>
+                    <div class="info-block-card-content">
+                        <h3 data-translate="banner_2_title">Согласование пСД И ТУ</h3>
+                        <p data-translate="banner_2_text">Технический отдел</p>
+                    </div>
+                </div>
+                <div  class="info-block-card _card3">
+                    <div class="info-block-card-img">
+                        <img src="icons/ic_road.png" alt="road">
+                    </div>
+                    <div class="info-block-card-content">
+                        <h3 data-translate="banner_3_title">Дежурный по согласлванию дорог и мостов</h3>
+                    </div>
+                </div>
+                <div  class="info-block-card _card4">
+                    <div class="info-block-card-img">
+                        <img src="icons/ic_sale.png" alt="sale">
+                    </div>
+                    <div class="info-block-card-content">
+                        <h3 data-translate="banner_4_title">Продажа продукции</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info-block-navigation">
+            <label for="radio11" class="info-block-navigation-btn">
+                <span></span>
+            </label>
+            <label for="radio12" class="info-block-navigation-btn">
+                <span></span>
+            </label>
+            <label for="radio13" class="info-block-navigation-btn">
+                <span></span>
+            </label>
+        </div>
+        <div class="info-block">
+            <div  class="info-block-card _card1">
+                <div class="info-block-card-img">
+                    <img src="icons/ic_path.png" alt="path">
+                </div>
+                <div class="info-block-card-content">
+                    <h3 data-translate="banner_1_title">Согласование проезда</h3>
+                    <p data-translate="banner_1_text">Дорожное управление</p>
+                </div>
+            </div>
+            <div  class="info-block-card _card2">
+                <div class="info-block-card-img">
+                    <img src="icons/ic_phone.png" alt="phone">
+                </div>
+                <div class="info-block-card-content">
+                    <h3 data-translate="banner_2_title">Согласование пСД И ТУ</h3>
+                    <p data-translate="banner_2_text">Технический отдел</p>
+                </div>
+            </div>
+            <div  class="info-block-card _card3">
+                <div class="info-block-card-img">
+                    <img src="icons/ic_road.png" alt="road">
+                </div>
+                <div class="info-block-card-content">
+                    <h3 data-translate="banner_3_title">Дежурный по согласлванию дорог и мостов</h3>
+                </div>
+            </div>
+            <div  class="info-block-card _card4">
+                <div class="info-block-card-img">
+                    <img src="icons/ic_sale.png" alt="sale">
+                </div>
+                <div class="info-block-card-content">
+                    <h3 data-translate="banner_4_title">Продажа продукции</h3>
+                </div>
+            </div>
+        </div>
+        <div class="products-block">
+            <div class="products-block-title">
+                <h2 data-translate="products">Продукция</h2>
+            </div>
+            <div class="products-block-catalog">
+                <div class="products-block-catalog-card _1">
+                    <img src="images/crushed-stone.png" alt="product">
+                    <div class="products-block-catalog-card-content">
+                        <h4 data-translate="product_1">Щебёночные материалы</h4>
+                    </div>
+                </div>
+                <div class="products-block-catalog-card _2">
+                    <img src="images/sand.png" alt="product">
+                    <div class="products-block-catalog-card-content">
+                        <h4 data-translate="product_2">Песок</h4>
+                    </div>
+                </div>
+                <div class="products-block-catalog-card _3">
+                    <img src="images/asphalt.png" alt="product">
+                    <div class="products-block-catalog-card-content">
+                        <h4 data-translate="product_3">Асфальтобетон</h4>
+                    </div>
+                </div>
+                <div class="products-block-catalog-card _4">
+                    <img src="images/paving-slabs.png" alt="product">
+                    <div class="products-block-catalog-card-content">
+                        <h4 data-translate="product_4">Плитка тротуарная, бордюр</h4>
+                    </div>
+                </div>
+                <div class="products-block-catalog-card _5">
+                    <img src="images/cement.png" alt="product">
+                    <div class="products-block-catalog-card-content">
+                        <h4 data-translate="product_5">ЖБИ, цементные растворы, фундаменты</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="products-block-catalog additional-products" style="display: none;">
+                <div class="products-block-catalog-card _6">
+                    <img src="images/crushed-stone2.png" alt="product">
+                    <div class="products-block-catalog-card-content">
+                        <h4 data-translate="product_1">Щебёночные материалы</h4>
+                    </div>
+                </div>
+                <div class="products-block-catalog-card _7">
+                    <img src="images/sand2.png" alt="product">
+                    <div class="products-block-catalog-card-content">
+                        <h4 data-translate="product_2">Песок</h4>
+                    </div>
+                </div>
+                <div class="products-block-catalog-card _8">
+                    <img src="images/asphalt2.png" alt="product">
+                    <div class="products-block-catalog-card-content">
+                        <h4 data-translate="product_3">Асфальтобетон</h4>
+                    </div>
+                </div>
+                <div class="products-block-catalog-card _9">
+                    <img src="images/paving-slabs2.png" alt="product">
+                    <div class="products-block-catalog-card-content">
+                        <h4 data-translate="product_4">Плитка тротуарная, бордюр</h4>
+                    </div>
+                </div>
+                <div class="products-block-catalog-card _10">
+                    <img src="images/cement2.png" alt="product">
+                    <div class="products-block-catalog-card-content">
+                        <h4 data-translate="product_5">ЖБИ, цементные растворы, фундаменты</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="products-block-btn">
+                <button id="toggleProductsBtn" data-translate="viewAll">Посмотреть все</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
